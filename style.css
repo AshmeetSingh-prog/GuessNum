@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+#header{
+    width: 98.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+}
+#heading{
+    font-size: 5vw;
+}
+#int{
+    padding-left: 2vw;
+}
+#inth{
+    font-size: 4.4vw;
+}
+.list{
+    margin-left: 3vw;
+    font-size: 3vw;
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height: 35vw;
+    margin-top: 4vw;}
+.imagewindr{
+    background-image:url("bombs.jpg");
+    background-size: cover;
+    background-color: black;
+    border: 2px solid black;
+    color:black;
+}
+.imagewinlt{
+    background-image:url("bombs.jpg");
+    background-size: cover;
+    background-color: black;
+    border: 2px solid black;
+    color:black;
+}
+.imagelosedr{
+    background-image:url("lose.gif");
+    background-size: contain;
+    background-color: black;
+    border: 2px solid black;
+    color:red;
+}
+.imageloselt{
+    background-image:url("lose.gif");
+    background-size: contain;
+    background-color: black;
+    border: 2px solid black;
+    color:black;
+}
+
+#headg{
+    font-size: 4vw;
+    margin-top: -10vw;
+    
+    
+}
+#input{
+    margin-top: 1.8vw;
+    height: 2.7vw;
+    width: 12vw;
+    border: 2px solid black;
+    font-size: 1.9vw;
+    padding-left: 3px;
+}
+#boxi{
+    display: flex;
+    align-items:center;
+    
+}
+#btn{
+    position: relative;
+    left: 3vw;
+    margin-top: 2vh;
+    font-size: 2.3vw;
+    padding: 2px;
+    border: 2px solid black;
+}
+.buttons{
+    font-size: 2.3vw;
+    margin-top: 1vw;
+}
+#pre{
+    margin-top: 1.5vh;
+    font-size: 3vw;
+    display: flex;
+}
+#rem{
+    margin-top: 1vh;
+    font-size: 3vw;
+    display: flex;
+}
+#pre1{
+    font-size: 3vw ;
+}
+.crc{
+    font-size: 4vw;
+    margin-top: 3vh;
+}
+#nearclose{
+    font-size: 2vw;
+    color: red;
+    margin-top: 1vw;
+}
+#mode{
+    padding: 5px;
+    position:relative ;
+    left:14vw;
+    top: 1vw;
+    border: 2px solid black;
+    font-size: 1.5vw;
+}
+#plagainbox{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:650px) {
+    #heading{
+        font-size: 8vw;
+    }
+    #inth{
+        font-size: 7.4vw;
+    }
+    .list{
+        font-size: 5.6vw;
+    }
+    #headg{
+        font-size: 8vw;
+        
+    }
+    #input{
+        margin-top: 2.0vw;
+        height: 7vw;
+        width: 20vw;
+        border: 2px solid black;
+        font-size: 5vw;
+        padding-left: 3px;
+    }
+    #btn{
+        position: relative;
+        left: 3vw;
+        margin-top: 2vh;
+        font-size: 4vw;
+        padding: 2px;
+        border: 1px solid black;
+    }
+    #pre,#pre1,#rem,#rem1{
+        margin-top: 1vh;
+        font-size: 6vw;
+        display: flex;
+    }
+    .crc{
+        font-size: 9vw;
+        margin-top: 3vh;
+    }
+    #nearclose{
+        font-size: 5vw;
+    }
+    #mode{
+        position:relative ;
+        left:0.5vw;
+        top: 1vw;
+        font-size: 3vw;
+    }
+    #box{
+        margin-top: 20vw;
+    }
+    .list{
+        margin-left: 6vw;
+    }
+    #boxi{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
