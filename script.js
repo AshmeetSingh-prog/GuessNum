@@ -20,6 +20,8 @@ let modbtn = document.getElementById("mode")
 let mode ="dark"
 let playAgainBtn = document.createElement("button")
 let plagainbox = document.getElementById("plagainbox")
+let ans = document.getElementById("ans")
+let ansnum = document.getElementById("ansnum")
 
 playAgainBtn.classList.add("buttons")
 playAgainBtn.innerText="Play Again!"
@@ -71,6 +73,9 @@ let gameloop = function(){
         
         plagainbox.appendChild(playAgainBtn);
 
+        ans.innerText=`The answer was : ${num}`
+        ansnum.innerText=`Total atttempts used: ${11 - remaining  }`
+
         if(mode=="light"){
             box.classList.add("imagelosedr")
         } else if(mode=="dark"){
@@ -94,6 +99,8 @@ let gameloop = function(){
         boxi.appendChild(crcVal0);
         boxi.appendChild(crcVal);
         plagainbox.appendChild(playAgainBtn);
+        ans.innerText=`The answer was : ${num}`
+        ansnum.innerText=`Total atttempts used: ${11 - remaining  }`
 
         
         if(mode=="light"){
