@@ -108,7 +108,7 @@ let gameloop = function(){
             nearclose.innerText="//You are near that no."
     
         }else{
-            nearclose.innerText="//Too are too far away"
+            nearclose.innerText="//You are too far away"
         }
         remaining = remaining-1;
         rem1.innerHTML = remaining;    
