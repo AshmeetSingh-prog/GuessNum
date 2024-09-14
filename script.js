@@ -124,6 +124,7 @@ let gameloop = function(){
         pre1.innerText = preArrJn;
           
     }
+    inp.value = "" ;
     
 }
 btn.addEventListener("click",gameloop)  
